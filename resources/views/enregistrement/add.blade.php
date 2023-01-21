@@ -11,7 +11,8 @@
     </center>
   </div>
 </div>
-@endsection     
+@endsection      
+
 
 @section('content')
 <div class="mt-3 col-md-8" style="text-align:center; display:inline-block;">
