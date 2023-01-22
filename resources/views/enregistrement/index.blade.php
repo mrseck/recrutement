@@ -33,7 +33,7 @@
                                         <th>Prenom</th>
                                         <th>Téléphone</th>
                                         <th>Email</th>
-                                        <th>Action</th>
+                               <!--     <th>Action</th> -->
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -44,10 +44,10 @@
                                         <td>{{ $item->prenom }}</td>
                                         <td>{{ $item->contact }}</td>
                                         <td>{{ $item->email }}</td>
-                                        <td>
+                                <!--    <td>
                                           <a href="{{ url('edit-participant/'.$item->id)}}" class="btn btn-success btnview">Modifier</a>
                                           <a href="{{ url('delete-participant/'.$item->id)}}" class="btn btn-danger  btnview">Supprimer</a>
-                                        </td>
+                                        </td> -->
                                     </tr>
                                 @endforeach
                                 </tbody>
